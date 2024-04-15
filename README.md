@@ -8,3 +8,5 @@ helm package .
 helm repo index ./ 
 ```
 The chart and the index must be pushed in the `gh-pages` branch.
+
+To update the repo : `helm repo update`
